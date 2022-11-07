@@ -28,6 +28,8 @@ Array.from(buttons).forEach((btn)=>{
     }
     else if(e.target.innerHTML==='X'){
       inpt.value += 'X'
+
+      
       s+='*';
 
     }
